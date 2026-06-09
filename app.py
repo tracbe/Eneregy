@@ -6,12 +6,12 @@ import joblib
 # 4 - scaler
 # 5 - predection
 # 6 - convert number in y  to text ****
-model = joblib.load(r"C:/Users/Pc SToRe/Desktop/zayad/energy/Energy_save.pkl")
-le_2 = joblib.load(r"C:/Users/Pc SToRe/Desktop/zayad/energy/le_2.pkl")
-le_4 = joblib.load(r"C:/Users/Pc SToRe/Desktop/zayad/energy/le_4.pkl")
-le_5 = joblib.load(r"C:/Users/Pc SToRe/Desktop/zayad/energy/le_5.pkl")
-le_6 = joblib.load(r"C:/Users/Pc SToRe/Desktop/zayad/energy/le_6.pkl")
-sc = joblib.load(r"C:/Users/Pc SToRe/Desktop/zayad/energy/sc.pkl")
+model = joblib.load("Energy_save.pkl")
+le_2 = joblib.load("le_2.pkl")
+le_4 = joblib.load("le_4.pkl")
+le_5 = joblib.load("le_5.pkl")
+le_6 = joblib.load("le_6.pkl")
+sc = joblib.load("sc.pkl")
 
 st.title("Enregy Data")
 
